@@ -1,0 +1,328 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+ 
+  header {
+    background-color: #112D4E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+  
+ 
+  #hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 3em 0;
+  }
+  
+  .cta-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #2a9df4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+ 
+  #features ul {
+    list-style: disc inside;
+    padding: 0;
+  }
+  
+  #features ul li {
+    margin: 10px 0;
+  }
+  
+ 
+  #top-categories {
+    background: #f4f4f4;
+    padding: 2em 0;
+  }
+  
+  .categories-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .category-card {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .category-card p {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+ 
+  #top-courses .courses-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .course-card {
+    text-align: center;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .course-card h3, .course-card p {
+    padding: 10px;
+  }
+  
+  .course-card button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #2a9df4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+  
+  .regcontainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    text-align: center;
+    color: #2a9df4;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form button {
+    margin: 10px 0;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus, form select:focus {
+    border-color: #2a9df4;
+    outline: none;
+}
+
+form button {
+    background-color: #2a9df4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #237dc0;
+}
+
+
+form a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #2a9df4;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.front {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; 
+    max-width: 45%; 
+  }
+  
+  .front p {
+    color: #333; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    text-align: justify; 
+  }
+
+  .image-container {
+    max-width: 45%; 
+  }
+  
+  .image-container img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  .frocontainer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 20px auto; 
+    max-width: 1200px; 
+  }
+
+  .features-section {
+    background: #3F72AF; 
+    color: #ffffff; 
+    border-radius: 15px; 
+    padding: 60px; 
+    max-width: 1200px; 
+    margin: 30px auto; 
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .features-section h2 {
+    font-size: 36px; 
+    font-weight: 700; 
+    margin-bottom: 40px; 
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    color: #ffffff; 
+  }
+  
+  .features-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center; 
+  }
+  
+  .features-section ul li {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #ffffff; 
+    border-radius: 15px; 
+    width: 300px; 
+    padding: 30px; 
+    text-align: center; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    font-size: 18px; 
+    font-weight: 500; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .features-section ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .features-section ul li::before {
+    content: ''; 
+    position: absolute;
+    top: -50px; 
+    right: -50px; 
+    width: 150px; 
+    height: 150px; 
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%; 
+    z-index: 0; 
+  }
+  
+  .features-section ul li .icon {
+    font-size: 40px; 
+    color:#3F72AF; 
+    margin-bottom: 15px;
+    z-index: 1; 
+    position: relative; 
+  }
+  
+  .features-section ul li .text {
+    position: relative; 
+    z-index: 1; 
+  }
+  
